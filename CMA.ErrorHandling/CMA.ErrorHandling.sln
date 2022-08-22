@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.Notifications", "CMA.ErrorHandling.Notifications.csproj", "{4E1487F5-4ACD-43EA-9D0D-29D70B34E762}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Notifications", "0 - Notifications", "{C2E98444-92FB-4B46-BD6B-1D4EC4E44393}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Global Handling", "1 - Global Handling", "{477E693D-9694-44F8-A794-6D6099D9AFBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.GlobalHandling", "..\CMA.ErrorHandling.GlobalHandling\CMA.ErrorHandling.GlobalHandling.csproj", "{27692E47-98B9-4846-A013-A0A480A857EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{4739900A-5F9F-4E11-9EAE-641357613863}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.Notifications.Domain", "..\CMA.ErrorHandling.Domain\CMA.ErrorHandling.Notifications.Domain.csproj", "{EEF62312-01E4-49B9-98C4-77FC878E0B27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.Notifications.Handling", "..\CMA.ErrorHandling.Notifications.Handling\CMA.ErrorHandling.Notifications.Handling.csproj", "{735FC4B1-C883-4EFA-AB8A-5C80BD0B75F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - UI", "0 - UI", "{5083C0D5-26CC-438B-A0B5-E009549E69C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Notifications", "2 - Notifications", "{481DA7A6-3ABE-46E6-BC90-A4757C447A55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - UI", "0 - UI", "{696FCEA6-1BF7-47FE-BCCB-5E82B5C7E6DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{7B1AF324-2215-4E26-B226-3DBCCA97BC76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.GlobalHandling.Domain", "..\CMA.ErrorHandling.GlobalHandling.Domain\CMA.ErrorHandling.GlobalHandling.Domain.csproj", "{ADC7FC0E-77BC-443E-B5B2-C613EEA4C11D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Exceptions", "2 - Exceptions", "{47B7D5D6-B270-48A0-8C3D-F223ADC3FAD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.Exceptions", "..\CMA.ErrorHandling.Exceptions\CMA.ErrorHandling.Exceptions.csproj", "{9C6BCA07-FD86-45B0-9243-D40046E72E16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E1487F5-4ACD-43EA-9D0D-29D70B34E762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1487F5-4ACD-43EA-9D0D-29D70B34E762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1487F5-4ACD-43EA-9D0D-29D70B34E762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E1487F5-4ACD-43EA-9D0D-29D70B34E762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27692E47-98B9-4846-A013-A0A480A857EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27692E47-98B9-4846-A013-A0A480A857EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27692E47-98B9-4846-A013-A0A480A857EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27692E47-98B9-4846-A013-A0A480A857EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF62312-01E4-49B9-98C4-77FC878E0B27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF62312-01E4-49B9-98C4-77FC878E0B27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF62312-01E4-49B9-98C4-77FC878E0B27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF62312-01E4-49B9-98C4-77FC878E0B27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{735FC4B1-C883-4EFA-AB8A-5C80BD0B75F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735FC4B1-C883-4EFA-AB8A-5C80BD0B75F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735FC4B1-C883-4EFA-AB8A-5C80BD0B75F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735FC4B1-C883-4EFA-AB8A-5C80BD0B75F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC7FC0E-77BC-443E-B5B2-C613EEA4C11D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC7FC0E-77BC-443E-B5B2-C613EEA4C11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC7FC0E-77BC-443E-B5B2-C613EEA4C11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC7FC0E-77BC-443E-B5B2-C613EEA4C11D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C6BCA07-FD86-45B0-9243-D40046E72E16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C6BCA07-FD86-45B0-9243-D40046E72E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C6BCA07-FD86-45B0-9243-D40046E72E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C6BCA07-FD86-45B0-9243-D40046E72E16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E1487F5-4ACD-43EA-9D0D-29D70B34E762} = {5083C0D5-26CC-438B-A0B5-E009549E69C8}
+		{27692E47-98B9-4846-A013-A0A480A857EE} = {696FCEA6-1BF7-47FE-BCCB-5E82B5C7E6DE}
+		{4739900A-5F9F-4E11-9EAE-641357613863} = {C2E98444-92FB-4B46-BD6B-1D4EC4E44393}
+		{EEF62312-01E4-49B9-98C4-77FC878E0B27} = {4739900A-5F9F-4E11-9EAE-641357613863}
+		{735FC4B1-C883-4EFA-AB8A-5C80BD0B75F4} = {481DA7A6-3ABE-46E6-BC90-A4757C447A55}
+		{5083C0D5-26CC-438B-A0B5-E009549E69C8} = {C2E98444-92FB-4B46-BD6B-1D4EC4E44393}
+		{481DA7A6-3ABE-46E6-BC90-A4757C447A55} = {C2E98444-92FB-4B46-BD6B-1D4EC4E44393}
+		{696FCEA6-1BF7-47FE-BCCB-5E82B5C7E6DE} = {477E693D-9694-44F8-A794-6D6099D9AFBB}
+		{7B1AF324-2215-4E26-B226-3DBCCA97BC76} = {477E693D-9694-44F8-A794-6D6099D9AFBB}
+		{ADC7FC0E-77BC-443E-B5B2-C613EEA4C11D} = {7B1AF324-2215-4E26-B226-3DBCCA97BC76}
+		{47B7D5D6-B270-48A0-8C3D-F223ADC3FAD8} = {477E693D-9694-44F8-A794-6D6099D9AFBB}
+		{9C6BCA07-FD86-45B0-9243-D40046E72E16} = {47B7D5D6-B270-48A0-8C3D-F223ADC3FAD8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E88A07E-B062-4145-B1CD-2A64816ECE8F}
+	EndGlobalSection
+EndGlobal
