@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.Notifications", "CMA.ErrorHandling.Notifications.csproj", "{4E1487F5-4ACD-43EA-9D0D-29D70B34E762}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.Notifications", "CMA.ErrorHandling.Notifications\CMA.ErrorHandling.Notifications.csproj", "{4E1487F5-4ACD-43EA-9D0D-29D70B34E762}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Notifications", "0 - Notifications", "{C2E98444-92FB-4B46-BD6B-1D4EC4E44393}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Global Handling", "1 - Global Handling", "{477E693D-9694-44F8-A794-6D6099D9AFBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.GlobalHandling", "..\CMA.ErrorHandling.GlobalHandling\CMA.ErrorHandling.GlobalHandling.csproj", "{27692E47-98B9-4846-A013-A0A480A857EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.GlobalHandling", "CMA.ErrorHandling.GlobalHandling\CMA.ErrorHandling.GlobalHandling.csproj", "{27692E47-98B9-4846-A013-A0A480A857EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{4739900A-5F9F-4E11-9EAE-641357613863}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.Notifications.Domain", "..\CMA.ErrorHandling.Domain\CMA.ErrorHandling.Notifications.Domain.csproj", "{EEF62312-01E4-49B9-98C4-77FC878E0B27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.Notifications.Domain", "CMA.ErrorHandling.Notifications.Domain\CMA.ErrorHandling.Notifications.Domain.csproj", "{EEF62312-01E4-49B9-98C4-77FC878E0B27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.Notifications.Handling", "..\CMA.ErrorHandling.Notifications.Handling\CMA.ErrorHandling.Notifications.Handling.csproj", "{735FC4B1-C883-4EFA-AB8A-5C80BD0B75F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.Notifications.Handling", "CMA.ErrorHandling.Notifications.Handling\CMA.ErrorHandling.Notifications.Handling.csproj", "{735FC4B1-C883-4EFA-AB8A-5C80BD0B75F4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - UI", "0 - UI", "{5083C0D5-26CC-438B-A0B5-E009549E69C8}"
 EndProject
@@ -25,11 +25,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - UI", "0 - UI", "{696FCE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{7B1AF324-2215-4E26-B226-3DBCCA97BC76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.GlobalHandling.Domain", "..\CMA.ErrorHandling.GlobalHandling.Domain\CMA.ErrorHandling.GlobalHandling.Domain.csproj", "{ADC7FC0E-77BC-443E-B5B2-C613EEA4C11D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.GlobalHandling.Domain", "CMA.ErrorHandling.GlobalHandling.Domain\CMA.ErrorHandling.GlobalHandling.Domain.csproj", "{ADC7FC0E-77BC-443E-B5B2-C613EEA4C11D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Exceptions", "2 - Exceptions", "{47B7D5D6-B270-48A0-8C3D-F223ADC3FAD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.Exceptions", "..\CMA.ErrorHandling.Exceptions\CMA.ErrorHandling.Exceptions.csproj", "{9C6BCA07-FD86-45B0-9243-D40046E72E16}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMA.ErrorHandling.Exceptions", "CMA.ErrorHandling.GlobalHandling.Exceptions\CMA.ErrorHandling.Exceptions.csproj", "{9C6BCA07-FD86-45B0-9243-D40046E72E16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

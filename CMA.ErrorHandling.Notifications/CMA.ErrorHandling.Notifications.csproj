@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CMA.ErrorHandling.Domain\CMA.ErrorHandling.Notifications.Domain.csproj" />
+    <ProjectReference Include="..\CMA.ErrorHandling.Notifications.Domain\CMA.ErrorHandling.Notifications.Domain.csproj" />
     <ProjectReference Include="..\CMA.ErrorHandling.Notifications.Handling\CMA.ErrorHandling.Notifications.Handling.csproj" />
   </ItemGroup>
 

@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CMA.ErrorHandling.Exceptions\CMA.ErrorHandling.Exceptions.csproj" />
+    <ProjectReference Include="..\CMA.ErrorHandling.GlobalHandling.Exceptions\CMA.ErrorHandling.Exceptions.csproj" />
   </ItemGroup>
 
 </Project>

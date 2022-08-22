@@ -1,5 +1,4 @@
-﻿using CMA.ErrorHandling.Exceptions;
-using CMA.ErrorHandling.Exceptions.Execptions;
+﻿using CMA.ErrorHandling.Exceptions.Execptions;
 using CMA.ErrorHandling.GlobalHandling.Domain.Interfaces;
 
 namespace CMA.ErrorHandling.GlobalHandling.Domain.Service
